@@ -43,11 +43,48 @@
 
   .informations {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    align-content: center;
   
+
   }
+
+  .info-content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 8px;
+
+  }
+
   .informations > .description  {
     text-align: justify;
+  }
+  
+  .localisation {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+
+  .localisation img {
+    width: 24px;
+    height: 24px;
+  }
+  .localisation .country{ 
+    letter-spacing: 0.5rem;
+  }
+
+  .localisation .map--link a {
+    color: #918E9B;
+  }
+  .info-content .dates {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 12px;
+  }
+  .info-content .place--name{
+    margin-bottom: 20px;
   }
 
   
